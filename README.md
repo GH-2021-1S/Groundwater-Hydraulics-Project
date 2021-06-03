@@ -52,7 +52,7 @@ $$W(u)=-Ei(-u)$$
 
 #### Cooper-Jacob
 
-$$s(r,t)=\frac{2.303Q}{4\pi T}Log(\frac{2.25 T t}{r^2 S})$$
+![cooper](https://latex.codecogs.com/gif.latex?s%28r%2Ct%29%3D%5Cfrac%7B2.303Q%7D%7B4%5Cpi%20T%7DLog%28%5Cfrac%7B2.25%20T%20t%7D%7Br%5E2%20S%7D%29 "cooper")
 
 #### Derivada por el Metodo de Bourdet
 
