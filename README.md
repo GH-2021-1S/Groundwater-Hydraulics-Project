@@ -77,7 +77,9 @@ Coeficiente de determinación
 ![R²](https://latex.codecogs.com/gif.latex?R%5E2%3D1-%5Cfrac%7B%5Csigma_r%5E2%7D%7B%5Csigma%5E2%7D)
 
 #### MSE
-                    
+
+Error cuadrático medio
+
 ![MSE](https://latex.codecogs.com/gif.latex?MSE%3D%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%28Y_i-%5Chat%20Y_i%29%5E2)
 
 ## Autores ✒️
