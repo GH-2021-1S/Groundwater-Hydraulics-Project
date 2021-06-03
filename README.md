@@ -86,5 +86,5 @@ Coeficiente de determinación
 * **Dónoban Steven Rojas** - *Estudiante Maestría en Recursos Hidráulicos - UNAL* 
 * **Leonardo David Donado** - *Profesor Titular Universidad Nacional de Colombia*
 
-## Licencia 📄
+### Licencia 📄
 _Puedes ejecutar, estudiar, copiar, modificar y mejorar esta herramienta, solo no te olvides de dar crédito y referenciar a sus autores._
