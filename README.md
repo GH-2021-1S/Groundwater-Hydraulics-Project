@@ -1,15 +1,17 @@
 ![Unal](http://occidente.co/wp-content/uploads/2017/11/Logo.png)
-#Estimación de parámetros hidrodinámicos en acuíferos confinados
 
-_Este es un proyecto desarrollado por estudiantes del curso Hidráulica Subterránea de la Universidad Nacional de Colombia - sede Bogotá. Esta herramienta, en base a información de pruebas de bombeo y recuperación en acuíferos confinados, permite filtrar datos anómalos; graficar pruebas diagnóstico; reconocer la existencia de efectos piel y almacenamiento; ajustar de manera automática los rangos en el tiempo donde es posible aplicar los métodos de Theis y Cooper-Jacob y finalmente estimar parámetros como la transmisividad y el almacenamiento del acuífero. _
+
+# Estimación de parámetros hidrodinámicos en acuíferos confinados
+
+_Este es un proyecto desarrollado por estudiantes del curso Hidráulica Subterránea de la Universidad Nacional de Colombia - sede Bogotá. Esta herramienta, en base a información de pruebas de bombeo y recuperación en acuíferos confinados, permite filtrar datos anómalos; graficar pruebas diagnóstico; reconocer la existencia de efectos piel y almacenamiento; ajustar de manera automática los rangos en el tiempo donde es posible aplicar los métodos de Theis y Cooper-Jacob y finalmente estimar parámetros como la transmisividad y el almacenamiento del acuífero._
 
 ### Pre-requisitos 📋
 
-_Para hacer uso de la herramienta es necesario contar con un ordenador que soporte el lenguaje de programación [Python](https://www.python.org/ "Python") y se recomienda utilizar el entorno de Desarrollo integrado [Spyder](https://www.spyder-ide.org/ "Spyder"). Este programa utiliza las bibliotecas numpy, pandas, scipy y matplotlib, por lo que estas deben estar descargadas y habilitadas. Adicionalmente, es necesario contar con un software de edición de hojas de cálculo, como Microsoft Excel, que permita crear archivos csv donde se consignaran los datos de las pruebas de bombeo y recuperación. _
+_Para hacer uso de la herramienta es necesario contar con un ordenador que soporte el lenguaje de programación [Python](https://www.python.org/ "Python") y se recomienda utilizar el entorno de Desarrollo integrado [Spyder](https://www.spyder-ide.org/ "Spyder"). Este programa utiliza las bibliotecas numpy, pandas, scipy y matplotlib, por lo que estas deben estar descargadas y habilitadas. Adicionalmente, es necesario contar con un software de edición de hojas de cálculo, como Microsoft Excel, que permita crear archivos csv donde se consignaran los datos de las pruebas de bombeo y recuperación._
 
-##Hacer Uso del Programa 🔧
+## Hacer Uso del Programa 🔧
 
-_Para hacer uso del programa se recomienda seguir los pasos descritos a continuación: _
+_Para hacer uso del programa se recomienda seguir los pasos descritos a continuación:_
 
 1.	Crear una carpeta donde se descargarán los archivos “prueba_trabajo.py”, “Datos_entrada_b.csv” y “Datos_entrada_r.csv”. 
 
@@ -23,8 +25,7 @@ _Para hacer uso del programa se recomienda seguir los pasos descritos a continua
 
 6.	Finalmente, debe ejecutarse el programa el cual entregara 7 resultados. 
 
-##Resultados 📌
-
+## Resultados 📌
 1. Graficas diagnóstico de Datos observados (crudos) vs datos seleccionados con criterio Coeficiente de Variación.
 
 2. Resultados de la calibración con la función objetivo seleccionada y la selección del mejor ajuste.
@@ -39,9 +40,9 @@ _Para hacer uso del programa se recomienda seguir los pasos descritos a continua
 
 7. Análisis de recuperación.
 
-##Base Conceptual 📖
+## Base Conceptual 📖
 
-####Theis
+#### Theis
 
 $$s(r,t)=\frac{Q}{4\pi T}W(u)$$
 
@@ -49,21 +50,22 @@ $$u=\frac{r^2 S}{4Tt}$$
 
 $$W(u)=-Ei(-u)$$
 
-####Cooper-Jacob
+#### Cooper-Jacob
 
 $$s(r,t)=\frac{2.303Q}{4\pi T}Log(\frac{2.25 T t}{r^2 S})$$
 
-####Derivada por el Metodo de Bourdet
+#### Derivada por el Metodo de Bourdet
 
 $$\frac{\partial s}{\partial lnT} = \frac{(\Delta s\_{i-1}/  \Delta ln T\_{i-1})\Delta ln T\_{i +1}+(\Delta s\_{i+1}/  \Delta ln T\_{i+1})\Delta ln T\_{i-1}}{\Delta ln T\_{i-1}+\Delta ln T\_{i+1}} $$
 
-####Coeficiente de Variación
+#### Coeficiente de Variación
 
 $$CV=\frac{\sigma}{\bar{x}} $$
 
-####Funciones objetivo
+#### Funciones objetivo
 
-######NSE
+###### NSE
+
 Nash–Sutcliffe model efficiency coefficient
 
 $$NSE=1-\frac{\sum\_{t=1}^{T}(Q\_{m}^{t}-Q\_{0}^{t})^2}{\sum_{t=1}^{T} (Q_0^t-\bar{Q_0})^2} $$
