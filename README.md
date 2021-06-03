@@ -1,4 +1,4 @@
-![Unal](http://occidente.co/wp-content/uploads/2017/11/Logo.png)
+![Unal](http://occidente.co/wp-content/uploads/2017/11/Logo.png?style=centerme)
 
 
 # Estimación de parámetros hidrodinámicos en acuíferos confinados
