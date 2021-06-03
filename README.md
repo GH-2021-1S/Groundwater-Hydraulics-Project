@@ -42,49 +42,49 @@ _Para hacer uso del programa se recomienda seguir los pasos descritos a continua
 
 ## Base Conceptual 📖
 
-#### Theis
+### Theis
 
-$$s(r,t)=\frac{Q}{4\pi T}W(u)$$
+![Theis](https://latex.codecogs.com/gif.latex?s%28r%2Ct%29%3D%5Cfrac%7BQ%7D%7B4%5Cpi%20T%7DW%28u%29)
 
-$$u=\frac{r^2 S}{4Tt}$$
+![u](https://latex.codecogs.com/gif.latex?u%3D%5Cfrac%7Br%5E2%20S%7D%7B4Tt%7D)
 
-$$W(u)=-Ei(-u)$$
+![Wu](https://latex.codecogs.com/gif.latex?W%28u%29%3D-Ei%28-u%29)
 
-#### Cooper-Jacob
+### Cooper-Jacob
 
 ![cooper](https://latex.codecogs.com/gif.latex?s%28r%2Ct%29%3D%5Cfrac%7B2.303Q%7D%7B4%5Cpi%20T%7DLog%28%5Cfrac%7B2.25%20T%20t%7D%7Br%5E2%20S%7D%29 "cooper")
 
-#### Derivada por el Metodo de Bourdet
+### Derivada por el Metodo de Bourdet
 
-$$\frac{\partial s}{\partial lnT} = \frac{(\Delta s\_{i-1}/  \Delta ln T\_{i-1})\Delta ln T\_{i +1}+(\Delta s\_{i+1}/  \Delta ln T\_{i+1})\Delta ln T\_{i-1}}{\Delta ln T\_{i-1}+\Delta ln T\_{i+1}} $$
+![Bourdet](https://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%20s%7D%7B%5Cpartial%20lnT%7D%20%3D%20%5Cfrac%7B%28%5CDelta%20s_%7Bi-1%7D/%20%5CDelta%20ln%20T_%7Bi-1%7D%29%5CDelta%20ln%20T_%7Bi%20&plus;1%7D&plus;%28%5CDelta%20s_%7Bi&plus;1%7D/%20%5CDelta%20ln%20T_%7Bi&plus;1%7D%29%5CDelta%20ln%20T_%7Bi-1%7D%7D%7B%5CDelta%20ln%20T_%7Bi-1%7D&plus;%5CDelta%20ln%20T_%7Bi&plus;1%7D%7D)
 
-#### Coeficiente de Variación
+### Coeficiente de Variación
 
-$$CV=\frac{\sigma}{\bar{x}} $$
+![CV](https://latex.codecogs.com/gif.latex?CV%3D%5Cfrac%7B%5Csigma%7D%7B%5Cbar%7Bx%7D%7D)
 
-#### Funciones objetivo
+### Funciones objetivo
 
-###### NSE
+#### NSE
 
 Nash–Sutcliffe model efficiency coefficient
 
-$$NSE=1-\frac{\sum\_{t=1}^{T}(Q\_{m}^{t}-Q\_{0}^{t})^2}{\sum_{t=1}^{T} (Q_0^t-\bar{Q_0})^2} $$
+![NSE](https://latex.codecogs.com/gif.latex?NSE%3D1-%5Cfrac%7B%5Csum_%7Bt%3D1%7D%5E%7BT%7D%28Q_%7Bm%7D%5E%7Bt%7D-Q_%7B0%7D%5E%7Bt%7D%29%5E2%7D%7B%5Csum_%7Bt%3D1%7D%5E%7BT%7D%20%28Q_0%5Et-%5Cbar%7BQ_0%7D%29%5E2%7D)
 
-######R²
+#### R²
 
 Coeficiente de determinación
 
-$$R^2=1-\frac{\sigma_r^2}{\sigma^2}$$
+![R²](https://latex.codecogs.com/gif.latex?R%5E2%3D1-%5Cfrac%7B%5Csigma_r%5E2%7D%7B%5Csigma%5E2%7D)
 
-######MSE
+#### MSE
                     
-$$MSE=\frac{1}{n}\sum_{i=1}^{n}(Y_i-\hat Y_i)^2 $$
+![MSE](https://latex.codecogs.com/gif.latex?MSE%3D%5Cfrac%7B1%7D%7Bn%7D%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%28Y_i-%5Chat%20Y_i%29%5E2)
 
 ## Autores ✒️
 * **Iris Juliana Barreto** - *Estudiante Maestría en Recursos Hidráulicos - UNAL* 
 * **Diego Ricardo Higuera** - *Estudiante Ingeniería Civil - UNAL*
 * **Dónoban Steven Rojas** - *Estudiante Maestría en Recursos Hidráulicos - UNAL* 
-* **Leonardo David Donado ** - *Profesor Titular Universidad Nacional de Colombia*
+* **Leonardo David Donado** - *Profesor Titular Universidad Nacional de Colombia*
 
 ## Licencia 📄
-_Puedes ejecutar, estudiar, copiar, modificar y mejorar esta herramienta, solo no te olvides de dar crédito y referenciar a sus autores. _
+_Puedes ejecutar, estudiar, copiar, modificar y mejorar esta herramienta, solo no te olvides de dar crédito y referenciar a sus autores._
